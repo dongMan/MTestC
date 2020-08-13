@@ -12,6 +12,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 target 'MTestC' do
   project 'MTestC.xcodeproj'
 
-  pod 'MBasis', :path => "../MBasis/MBasis.podspec"
+  pod 'MBasis/SubBasis', :path => "../MBasis/MBasis.podspec"
 
 end
